@@ -6,4 +6,19 @@ public class Bird extends Animal{
         this.name = name;
         this.year = year;
     }
+
+    @Override
+    public String move(){
+        return "fly";
+    }
+
+    @Override
+    public String breath(){
+        return "lungs";
+    }
+
+    @Override
+    public String reproduce(){
+        return "eggs";
+    }
 }
