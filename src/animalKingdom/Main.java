@@ -12,5 +12,14 @@ public class Main {
         Mammal raccoon = new Mammal("Raccoon", 1758);
         Mammal bigfoot = new Mammal("Bigfoot", 2021);
 
+        ArrayList<Animal> mammals = new ArrayList<Animal>();
+
+        mammals.add(panda);
+        mammals.add(zebra);
+        mammals.add(koala);
+        mammals.add(sloth);
+        mammals.add(armadillo);
+        mammals.add(raccoon);
+        mammals.add(bigfoot);
     }
 }
