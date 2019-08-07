@@ -4,8 +4,9 @@ public abstract class Animal {
     private static int maxId;
     private int id;
     private int energy;
-    private String name;
-    private int year;
+    //had these as private gave error, when switched when switched eror went away
+    protected String name;
+    protected int year;
 
     //constructor every animal will have this
     public Animal(String name, int year){
