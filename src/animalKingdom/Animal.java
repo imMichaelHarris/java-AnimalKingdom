@@ -2,6 +2,7 @@ package animalKingdom;
 
 public abstract class Animal {
     private static int id;
+    private int energy;
     private String name;
     private int year;
 
@@ -16,10 +17,10 @@ public abstract class Animal {
     }
 
     //abstract methods all animals can do this be it will vary
-    public abstract move();
-    public abstract breath();
-    public abstract reproduce();
-      
+    public abstract void move();
+    public abstract void breath();
+    public abstract void reproduce();
+
     public void eat(){
         energy++;
     }
