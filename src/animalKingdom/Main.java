@@ -4,6 +4,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args){
+        
+        //Create array list
+        ArrayList<Animal> mammals = new ArrayList<Animal>();
+        ArrayList<Animal> birds = new ArrayList<Animal>();
+
         Mammal panda = new Mammal("Panda", 1869);
         Mammal zebra = new Mammal("Zebra", 1778);
         Mammal koala = new Mammal("Koala", 1816);
@@ -12,7 +17,6 @@ public class Main {
         Mammal raccoon = new Mammal("Raccoon", 1758);
         Mammal bigfoot = new Mammal("Bigfoot", 2021);
 
-        ArrayList<Animal> mammals = new ArrayList<Animal>();
 
         mammals.add(panda);
         mammals.add(zebra);
