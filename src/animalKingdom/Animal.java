@@ -9,12 +9,15 @@ public abstract class Animal {
 
     //constructor every animal will have this
     public Animal(){
-
+        maxId++;
+        id = maxId;
         energy = 0;
     }
     //this constructor taks a parameter so we creating a new object 
     //the animal will have a engery level already
     public Animal(int energy){
+        maxId++;
+        id = maxId;
         this.energy = energy;
     }
 
