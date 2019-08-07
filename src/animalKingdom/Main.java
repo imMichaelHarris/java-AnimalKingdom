@@ -8,6 +8,7 @@ public class Main {
         //Create array list
         ArrayList<Animal> mammals = new ArrayList<Animal>();
         ArrayList<Animal> birds = new ArrayList<Animal>();
+        ArrayList<Animal> lospez = new ArrayList<Animal>();
 
         Mammal panda = new Mammal("Panda", 1869);
         Mammal zebra = new Mammal("Zebra", 1778);
