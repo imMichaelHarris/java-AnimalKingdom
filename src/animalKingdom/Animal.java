@@ -1,13 +1,15 @@
 package animalKingdom;
 
 public abstract class Animal {
-    private static int id;
+    private static int maxId;
+    private int id;
     private int energy;
     private String name;
     private int year;
 
     //constructor every animal will have this
     public Animal(){
+
         energy = 0;
     }
     //this constructor taks a parameter so we creating a new object 
