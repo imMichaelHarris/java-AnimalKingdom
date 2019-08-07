@@ -1,5 +1,7 @@
 package animalKingdom;
 
+import java.util.*;
+
 public class Main {
     public static void main(String[] args){
         Mammal panda = new Mammal("Panda", 1869);
