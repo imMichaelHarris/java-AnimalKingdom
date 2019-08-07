@@ -6,7 +6,14 @@ public abstract class Animal {
     private int year;
 
     //constructor every animal will have this
-    public Animal(){
+    public void Animal(){
         energy = 0;
+    }
+
+    public void eat(){
+        energy++;
+    }
+    public void eat(int quanity){
+        energy += quanity;
     }
 }
