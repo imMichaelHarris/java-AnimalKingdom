@@ -8,16 +8,20 @@ public abstract class Animal {
     private int year;
 
     //constructor every animal will have this
-    public Animal(){
+    public Animal(String name, int year){
         maxId++;
         id = maxId;
         energy = 0;
+        this.name = name;
+        this.year = year;
     }
     //this constructor taks a parameter so we creating a new object 
     //the animal will have a engery level already
-    public Animal(int energy){
+    public Animal(String name, int year, int energy){
         maxId++;
         id = maxId;
+        this.name = name;
+        this.year = year;
         this.energy = energy;
     }
 
